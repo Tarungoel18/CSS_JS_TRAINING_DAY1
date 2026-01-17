@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+.container-1 {
+    background-color: #efefef;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container-1 p {
+    background-color: yellow;
+}
+
+.container-1 > p {
+    background-color: red;
+}
+
+.container-2 {
+    background-color: #efefef;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container-3 {
+    background-color: #efefef;
+    padding: 10px;
+}
+
+.container-3 label {
+    cursor: pointer;
+    display: block;
+    background-color: red;
+}
