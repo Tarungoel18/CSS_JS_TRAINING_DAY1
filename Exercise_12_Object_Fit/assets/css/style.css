@@ -16,3 +16,6 @@ img {
 .img-1 {
     object-fit: cover;
 }
+.img-2{
+    object-fit: contain;
+}
