@@ -52,7 +52,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 .container-3 {
@@ -63,3 +63,25 @@ body {
     right: 0;
 }
 
+.container-4 {
+    height: 400px;
+    position: relative;
+    overflow-y: auto;
+}
+
+.container-4 .box-1 {
+    height: 500px;
+    width: 100%;
+    background-color: red;
+}
+
+.container-4 .box-3 {
+    height: 500px;
+    width: 100%;
+    background-color: green;
+}
+
+.container-4 .box-2 {
+    position: sticky;
+    bottom: 0;
+}
