@@ -28,6 +28,10 @@ body {
     margin-bottom: 10px;
 }
 
+.container-2  div ~ p  {
+    background-color: red;
+}
+
 .container-3 {
     background-color: #efefef;
     padding: 10px;
