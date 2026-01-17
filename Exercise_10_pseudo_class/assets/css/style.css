@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+.container-1 {
+    background-color: #efefef;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container-2 {
+    background-color: #efefef;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div p:first-child {
+    color: red;
+}
