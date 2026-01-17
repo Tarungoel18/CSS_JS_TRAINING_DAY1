@@ -27,7 +27,16 @@
         border: 1px solid black;
         height: 100px;
         margin-bottom: 10px;
+        position: relative;
       }
+      .position-center p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+
+
       .flexbox-center {
         border: 1px solid black;
         margin-bottom: 10px;
