@@ -64,6 +64,9 @@ body {
     background-color: aqua;
     padding: 10px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .flex-container-3 .box {
