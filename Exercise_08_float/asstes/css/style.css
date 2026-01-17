@@ -25,16 +25,22 @@ body {
 .div1 {
     background: red;
     padding: 15px;
+    float: left;
+    width: 33.33%;
 }
 
 .div2 {
     background: yellow;
     padding: 15px;
+    float: left;
+    width: 33.33%;
 }
 
 .div3 {
     padding: 15px;
     background: green;
+    float: left;
+    width: 33.33%;
 }
 
 .div4 {
