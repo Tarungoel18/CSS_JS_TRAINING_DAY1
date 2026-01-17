@@ -19,4 +19,5 @@
 .box-2 {
     background-color: yellow;
     height: 100px;
+    overflow: hidden;
 }
