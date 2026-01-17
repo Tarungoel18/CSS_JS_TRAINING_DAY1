@@ -47,6 +47,9 @@ body {
     background-color: aqua;
     padding: 10px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .flex-container-2 .box {
