@@ -81,10 +81,21 @@ body {
     background-color: aqua;
     padding: 10px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-container-4 .box {
     border: 1px solid black;
     height: 20px;
     width: max-content;
+}
+
+.flex-container-4 .box1 {
+    order: 2;
+}
+
+.flex-container-4 .box2 {
+    order: 1;
 }
