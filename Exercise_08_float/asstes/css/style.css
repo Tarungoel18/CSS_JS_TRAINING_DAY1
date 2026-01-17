@@ -52,4 +52,5 @@ body {
 .div5 {
     padding: 10px;
     border: 3px solid red;
+    clear: left;
 }
