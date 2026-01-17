@@ -17,10 +17,41 @@ body {
     background-color: lightblue;
     padding: 10px;
     border: 1px solid black;
-    margin-bottom: 10px;
 }
+
 .container-1 .box-1 {
     position: relative;
     left: 20px;
     bottom: 20px;
 }
+
+.container-2 {
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+.container-2 .box {
+    height: 100px;
+    width: 100px;
+}
+
+.container-2 .box-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container-2 .box-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.container-2 .box-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
