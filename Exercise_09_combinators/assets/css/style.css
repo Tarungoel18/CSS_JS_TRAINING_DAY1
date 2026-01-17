@@ -37,6 +37,10 @@ body {
     padding: 10px;
 }
 
+.container-3 input:checked + label{
+    background-color: green;
+}
+
 .container-3 label {
     cursor: pointer;
     display: block;
