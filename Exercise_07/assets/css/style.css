@@ -1,0 +1,35 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 10px;
+      }
+      .container {
+        border: 1px solid black;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .box {
+        background-color: red;
+        padding: 10px;
+        display: block;
+        margin: auto;
+        max-width: 20%;
+      }
+      .container img {
+        display: block;
+        margin: auto;
+        max-width: 50%;
+      }
+      .position-center {
+        border: 1px solid black;
+        height: 100px;
+        margin-bottom: 10px;
+      }
+      .flexbox-center {
+        border: 1px solid black;
+        margin-bottom: 10px;
+        height: 100px;
+      }
