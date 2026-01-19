@@ -58,9 +58,10 @@ body {
 .container-3 {
     height: 50vh;
     width: 50px;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
+    z-index: 1;
 }
 
 .container-4 {
