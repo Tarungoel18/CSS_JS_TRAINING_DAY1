@@ -12,6 +12,7 @@
 
   .box-1 {
       background-color: red;
+      width: 100%;
       max-width: 500px;
       height: 200px;
   }
@@ -27,4 +28,5 @@
       background-color: green;
       max-height: 75vh;
       min-height: 500px;
+      max-width: 90vw;
   }
