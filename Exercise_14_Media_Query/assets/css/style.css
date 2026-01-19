@@ -32,13 +32,13 @@ body {
     }
 }
 
-@media screen and (min-width : 577px) and(max-width : 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
     body {
         background-color: orange;
     }
 }
 
-@media screen and (min-width : 401px) and (max-width: 576px) {
+@media screen and (min-width: 401px) and (max-width: 576px) {
     body {
         background-color: purple;
     }
